@@ -1,4 +1,9 @@
-# encoding utf-8
-values ['2','3','4','5','6','7','8','9','10','J','Q','K','A']
-suits ['DIAMONDS', 'HEARTS', 'CLUBS', 'SPADES']
-puts "# {values.sample} of #{suits.sample}"
+def fact(n)
+  if n == 0
+    1
+  else
+    n * fact(n-1)
+  end
+end
+
+puts fact(ARGV[0].to_i)
