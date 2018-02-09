@@ -7,3 +7,4 @@ def fact(n)
 end
 
 puts fact(ARGV[0].to_i)
+
